@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="card text-white mb-3 mt-5" id="card1">
+            <div class="card-header">
+              <h1 class="text-center shadow">
+                LE PRIX DU <span class="">BITCOIN</span> EN
+                <span class="text-warning">EUROS</span> EN TEMPS REEL
+              </h1>
+            </div>
+            <div class="card-body text">
+              <h5 class="text-center card-title display-3 shadow">
+                <span id="price_label" class="text-warning">XXXX.X </span>&nbsp;<span class="text-warning">€</span>
+              </h5>
+              <p class="text-center">
+                Le prix du bitcoin est recuperer par le biais d'une API, et mis
+                a jour toute les secondes sans avoir a recharger la page grace a
+                une requete http "AJAX"
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
